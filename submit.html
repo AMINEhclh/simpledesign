@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="stylesheet" href="submit.css">
+    <script src="submit.js"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <h1 id="title">THE WORLD</h1>
+        <aside id="links">
+            <a href="home.html">Home</a>
+            <a href="submit.html">Submit</a>
+            <a href="creator.html">Creator</a>
+        </aside>
+        
+    </header>  
+    <article>
+       
+    <form action="https://formsubmit.co/0079a976014abc91826124f858f76ecf" method="POST">
+        <h3 >To Pre-Order our product</h3>
+        <table>
+            <tr>
+               
+                <th><button onclick="dis()" type="button" class="zz" >Disable</button></th>
+                <th><button onclick="dis2()" type="button" class="zz">Enable</button></th>
+                
+            </tr>
+        </table>
+        
+        
+        <input type="text" required name="Name" placeholder="Name"id="t1" >
+        <input type="email" required name="Email"placeholder="Email"  id="t2">
+        <input type="text" required name="Number" placeholder="Phone Number" id="t3">
+        <select name="Country"  required id="t4">
+            <option value="" name="Country">Country</option>
+            <option value="Tunisia" name="Country">Tunisia</option>
+            <option value="Algeria" name="Country">Algeria</option>
+            <option value="Marroco" name="Country">Marroco</option>
+            <option value="Saudi Aribia"name="Country">Saudi Aribia</option>
+        </select>
+       
+        <textarea name="Message"  cols="30" rows="7" placeholder="Message" id="t5"></textarea>
+        <button type="submit" id="t6" >Submit</button>
+    </form>
+</article>
+</body>
+</html>
